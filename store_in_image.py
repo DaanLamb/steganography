@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # local imports
-from utils import pad_encrypt_message, calc_location
+from utils import pad_encrypt_message, calc_location, append_to_filename
 
 
 def addNoise(image):
@@ -12,12 +12,11 @@ def addNoise(image):
     image = image.clip(0,255)
     return image
 
-def store_in_image():
+def store_in_image(img_path, key, message):
     # prepare message
-    message = 'A sincere message and definitely not some b*llshit'
-    encrypted_message = pad_encrypt_message(message, None)
+    encrypted_message = pad_encrypt_message(message, key)
 
-    img = cv.imread("images/frau_antje.png", cv.IMREAD_UNCHANGED)
+    img = cv.imread(img_path, cv.IMREAD_UNCHANGED)
     img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 
     img = addNoise(img)
@@ -37,6 +36,4 @@ def store_in_image():
 
     img = cv.flip(img, -1)
     img = cv.cvtColor(img, cv.COLOR_RGB2BGR)
-    cv.imwrite("images/frau_antje_with_message.png", img)
-
-store_in_image()
+    cv.imwrite(append_to_filename(img_path), img)

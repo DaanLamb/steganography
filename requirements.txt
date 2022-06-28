@@ -1,0 +1,33 @@
+certifi==2022.5.18.1
+cffi @ file:///home/builder/ci_310/cffi_1642753365720/work
+cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1632508026186/work
+cryptography @ file:///tmp/build/80754af9/cryptography_1652101588599/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+cytoolz==0.11.0
+dask @ file:///opt/conda/conda-bld/dask-core_1653082102769/work
+fonttools==4.25.0
+fsspec @ file:///opt/conda/conda-bld/fsspec_1652802105984/work
+imagecodecs @ file:///home/builder/ci_310_2/imagecodecs_1642084528537/work
+imageio @ file:///tmp/build/80754af9/imageio_1617700267927/work
+kiwisolver @ file:///opt/conda/conda-bld/kiwisolver_1653292039266/work
+locket @ file:///opt/conda/conda-bld/locket_1652903118915/work
+matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1647441664166/work
+mkl-service==2.4.0
+munkres==1.1.4
+networkx @ file:///opt/conda/conda-bld/networkx_1647437648384/work
+numpy @ file:///opt/conda/conda-bld/numpy_and_numpy_base_1651563629415/work
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+partd @ file:///opt/conda/conda-bld/partd_1647245470509/work
+Pillow==9.0.1
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+PyWavelets @ file:///tmp/build/80754af9/pywavelets_1648727875458/work
+PyYAML==6.0
+scikit-image @ file:///tmp/build/80754af9/scikit-image_1648214169132/work
+scipy @ file:///home/builder/ci_310/scipy_1641389939032/work
+sip==4.19.13
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+tifffile @ file:///tmp/build/80754af9/tifffile_1627275862826/work
+toolz @ file:///tmp/build/80754af9/toolz_1636545406491/work
+tornado @ file:///home/builder/ci_310/tornado_1640795392144/work
